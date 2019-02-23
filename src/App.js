@@ -2,12 +2,7 @@ import React, { Component } from 'react';
 
 class App extends Component {
   render() {
-    return (<div>
-          <p>
-            Edit <code>src/App.js</code> and save to reload and Hellow world.
-          </p>
-      </div>);
+    return (<h1>Hellow World!!</h1>);
   }
 }
-
 export default App;
