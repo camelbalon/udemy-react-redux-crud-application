@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 
 class App extends Component {
   render() {
-    return (<div>
-          <p>
-            Edit <code>src/App.js</code> and save to reload and Hellow world.
-          </p>
-      </div>);
+    return(
+      <React.Fragment>
+        <label htmlFor="bar">bar</label>
+        <input type="text" onChange={() => {console.log("I am clicked")}} />
+      </React.Fragment>
+    )
   }
 }
 
